@@ -1,1 +1,1 @@
-https://internshala.com/internship/detail/front-end-development-work-from-home-job-internship-at-avian-design1633964613
+https://kankshit-02.github.io/Bedroom-Frontend-Projects/Dezy%20It%20clone/index.html
