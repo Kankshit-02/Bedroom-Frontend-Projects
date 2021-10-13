@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  backgrond-size: 
+  
+}
+nav{
+  width: 100%;
+}
+
+ul {
+    
+    height: 50px;
+    width:100%;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 17px 10px;
+    position: fixed;
+    overflow: hidden;
+    background-color: #302b70;
+    font-size: 17px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: bolder;
+    box-shadow: black;
+    display: flex;
+    align-items: center;
+  }
+  
+  li {
+    float:left;
+    padding: 0px 20px;
+    cursor:pointer;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: color 0.8s ease;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    
+   color: #f1a042;
+  }
+
+.downloadnowbox{
+  margin: auto;
+  padding-top: 80px;
+  padding-left: 50px;
+  height: auto;
+  width: 100%;
+  background: #787cd1;
+  display: flex;
+  justify-content: center;
+}
+
+.insidecontainer{
+  padding:50px;
+  font-family:"Roboto",sans-serif;
+  color: white;
+}
+.parenthead{
+  padding-top: 50px;
+  font-size: 50px;
+  color: white;
+  line-height: 60px;
+}
+.buttons{
+  padding-bottom: 50px;
+}
+
+.phonecontainer{
+  padding:25px 0px;
+  width: relative;
+}
+
+.designsprintbox{
+  font-family:"Roboto",sans-serif;
+  padding-bottom: 60px;
+  height: auto;
+  width: 100%;
+  background: #ffffff;
+  padding-left:200px;
+  padding-top:40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.right{
+  max-width:400px;
+  padding-left: 30px;
+}
+
+.ourproductbox{
+  padding-top: 80px;
+  
+  
+  width: 100%;
+  background:#302b70 ;
+  color:#ffffff;
+  font-family:"Roboto",sans-serif;
+
+}
+
+.whydezyitbox{
+  height: 500px;
+  width: 100%;
+  background:#ffffff ;
+  font-family:"Roboto",sans-serif;
+  padding-top: 60px;
+  
+}
+.Collaboration{
+ 
+  display:flex;
+  justify-content: center;
+
+}
+.leftcolab{
+  padding:50px;
+  width: 300px;
+}
+
+.blueline{
+  border-bottom: 3px solid #787cd1;
+  width: 200px;
+}
+
+.Creativity{
+  margin:50px;
+  display: flex;
+  justify-content: center;
+}
+
+.rightcreate{
+  padding:100px;
+  width: 300px
+}
+
+.leftcreate{
+  
+}
+
+.Empathy{
+  display:flex;
+  justify-content: center;
+}
+
+.leftempathy{
+  width:300px;
+  padding:50px;
+}
+.rightempathy{
+ padding-left: 50px;
+}
