@@ -1,7 +1,7 @@
 import React from "react";
-import About from "../components/About";
-import Image from "../components/Image";
-import SocialAccounts from "../components/SocialAccounts";
+import About from "./About";
+import Image from "./Image";
+import SocialAccounts from "./SocialAccounts";
 import "./styles.css";
 export default function App() {
   return (
