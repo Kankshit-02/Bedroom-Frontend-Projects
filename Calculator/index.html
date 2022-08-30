@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <label for="num1">Num1</label>
     <input id="num1" value="">
     <label for="num2">Num2</label>
     <input id="num2" value="">
-    <button>+</button>
-    <button>-</button>
-    <button>/</button>
-    <button>*</button>
-
+    <button id="addition"  onclick="addition()">+</button>
+    <button id="subtraction" onclick="subtraction()">-</button>
+    <button id="division" onclick="division()">/</button>
+    <button id="multiplication" onclick="multiplication()">*</button>
+    <div id="result"></div>
 </body>
+
+<script src="./index.js"></script>
 </html>
