@@ -1,0 +1,21 @@
+*{
+    margin:0.2rem;
+}
+
+.supreme-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+#text-field{
+    width:20rem;
+    padding:10px;
+    font-size:1rem;
+}
+
+button{
+    padding:10px;
+    font-size:1rem;
+}
