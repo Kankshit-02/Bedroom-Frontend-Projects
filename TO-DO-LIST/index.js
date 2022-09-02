@@ -6,3 +6,9 @@ function addtolist(){
     document.getElementById("list-container").appendChild(textdiv);
 
 }
+
+function clearall(){
+
+    var list=document.getElementById('list-container')
+    list.innerText='';
+}
